@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    private int A;
+    private int B;
+    private int C;
     private int numero;
 
     public float velocidade = 40;
@@ -13,23 +16,22 @@ public class Player : MonoBehaviour
         numero = 0;
     }
 
+    {
+        C = A + B;
+        Debug log = C;
+    } 
+        
     // Update is called once per frame
     void Update()
     {
+       
         //Debug.Log(numero);
-
+        
         //numero = numero + 1;
 
+        
+        
+        
     }
     
 }
-If (Input.GetKey(KeyCode.A));
-{
-    GameObject.transform.position += new Vector3(velocidade* Time.deltaTime, 0, 0);
-}
-
-{
-    if(Input.GetKey(KeyCode.D));
-}
-
-    GameObject.transform.position += new Vector3(-velocidade * Time.deltaTime,0, 0);

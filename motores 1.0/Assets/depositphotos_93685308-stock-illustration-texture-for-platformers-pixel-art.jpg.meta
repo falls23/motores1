@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c1202c8219a17ee4a9e891d8a3a51e86
+guid: 5d50e529b05390247b2d6da7cc00833c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6093342082763840274
-    second: foda 2_0
+      213: -8275291804765021049
+    second: depositphotos_93685308-stock-illustration-texture-for-platformers-pixel-art_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: foda 2_0
+      name: depositphotos_93685308-stock-illustration-texture-for-platformers-pixel-art_0
       rect:
         serializedVersion: 2
-        x: 250
-        y: 42
-        width: 416
-        height: 516
+        x: 0
+        y: 0
+        width: 1024
+        height: 955
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21bd3122756ef8450800000000000000
-      internalID: 6093342082763840274
+      spriteID: 78c974ca2f1482d80800000000000000
+      internalID: -8275291804765021049
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      foda 2_0: 6093342082763840274
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
