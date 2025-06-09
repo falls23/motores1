@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lagarto zumbi _0: -5920343367093567959
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
