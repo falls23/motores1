@@ -12,19 +12,20 @@ public class Player : MonoBehaviour
     private SpriteRenderer sprite;
     private Rigidbody2D rb;
     
-    void Start()
-    {
-        sprite = GetComponent<SpriteRenderer>();
-        rb = GetComponent<Rigidbody2D>();
-    }
+       void Start()
+       {
+           sprite = GetComponent<SpriteRenderer>();
+           rb = GetComponent<Rigidbody2D>();
+       }
 
        
-    void Update()
+   void Update()
     {
         if (Input.GetKey(KeyCode.A))
         {
             gameObject.transform.position += new Vector3(-velocidade * Time.deltaTime,0,0);
-            sprite.flipX = false;
+            sprite.flipX = false
+;           
         }
         
         if (Input.GetKey(KeyCode.D))
@@ -53,7 +54,7 @@ public class Player : MonoBehaviour
     {
         if(colisao.gameObject.CompareTag("Chao"))
         {
-            noChao = false;
+            noChao =  false;
         }
     }
 }
