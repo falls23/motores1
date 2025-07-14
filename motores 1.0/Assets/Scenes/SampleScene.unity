@@ -130,9 +130,10 @@ GameObject:
   - component: {fileID: 12743932}
   - component: {fileID: 12743931}
   - component: {fileID: 12743930}
+  - component: {fileID: 12743933}
   m_Layer: 0
-  m_Name: depositphotos_93685308-stock-illustration-texture-for-platformers-pixel-art_0
-  m_TagString: Untagged
+  m_Name: chao
+  m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -247,12 +248,39 @@ Transform:
   m_GameObject: {fileID: 12743929}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.2835, y: -4.2, z: 0}
+  m_LocalPosition: {x: -8.28, y: -4.37, z: 0}
   m_LocalScale: {x: 4.786094, y: 0.94022584, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &12743933
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12743929}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &70131671
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,7 +468,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 323519950}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -543,7 +571,7 @@ Transform:
   m_GameObject: {fileID: 323519950}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.82, y: 11.5, z: 0}
+  m_LocalPosition: {x: -9.45, y: 9.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1215,7 +1243,7 @@ GameObject:
   - component: {fileID: 1011434156}
   m_Layer: 0
   m_Name: Square (2)
-  m_TagString: Untagged
+  m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1638,7 +1666,7 @@ Transform:
   m_GameObject: {fileID: 1374422454}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.027599, y: 6.4572, z: 1}
+  m_LocalPosition: {x: -8.37, y: 6.29, z: 1}
   m_LocalScale: {x: 8.576328, y: 5.366391, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2059,11 +2087,11 @@ GameObject:
   - component: {fileID: 1807509578}
   - component: {fileID: 1807509577}
   - component: {fileID: 1807509576}
-  - component: {fileID: 1807509575}
   - component: {fileID: 1807509574}
+  - component: {fileID: 1807509580}
   m_Layer: 0
   m_Name: tilemap-characters_packed_0
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2095,20 +2123,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1807509575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1807509573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a2f937166f63124a9e82862ad6b8a9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidade: 10
-  forcaDoPulo: 4
 --- !u!61 &1807509576
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2241,12 +2255,26 @@ Transform:
   m_GameObject: {fileID: 1807509573}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.3, y: 3.4, z: 0}
+  m_LocalPosition: {x: -19.2, y: 2.11, z: 0}
   m_LocalScale: {x: 2.882723, y: 3.1865852, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1807509580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807509573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0353bf592498b3845b826b60d4e9d860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidade: 10
+  forcaDoPulo: 9
 --- !u!1 &1923510162
 GameObject:
   m_ObjectHideFlags: 0
